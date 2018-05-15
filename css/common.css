@@ -1,0 +1,124 @@
+/*总体设置*/
+body{
+    font-size: 14px;
+    color: #666;    /*单词，16进制 #aabbcc  #abc*/
+    font-family: "Microsoft yahei",Aria;    /*字体系列*/
+    /*border: 2px solid red;  border:width style color;   solid/dotted/dashed */
+    margin: 0;  /*外边距*/
+    padding: 0; /*内边距*/
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;  /*去列表前标*/
+}
+/*布局定义*/
+section,footer{
+    border: 1px solid red;
+}
+#description,#tixing,#icons{
+    width: 1020px;
+    margin: 0 auto;
+}
+header,#banner,#hujiao,#dingwei,footer{
+    width: 100%;
+}
+header{
+    height: 50px;
+}
+#banner{
+    height: 550px;
+    background: url("../images/bg_1.jpg")no-repeat;
+}
+#description,#hujiao,#tixing,#dingwei{
+    height: 650px;
+}
+#icons{
+    height: 480px;
+}
+footer{
+    height: 170px;
+}
+header{
+    border: 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+div.content{
+    width: 1020px;
+    margin: 0 auto;
+}
+div.logo{
+    width: 153px;
+    height: 28px;
+    background: url("../images/iconlist_1.png") no-repeat -868px -100px;
+    float: left;
+    margin-top: 11px;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    float: left;
+}
+header ul li a{
+    padding: 0 15px;
+    height: 47px;
+    display: inline-block;
+    line-height: 47px;
+    text-decoration: none;
+    color: #5c5c5c;
+}
+header ul li a:hover,header ul li .active{
+    border-bottom: 3px solid #f1595f;
+    transition: border 1s linear;
+}
+a.android,a.ios{
+    width: 87px;
+    height: 26px;
+    margin-top: 12px;
+}
+a.android{
+    background: url("../images/iconlist_2.png") no-repeat -1655px -510px;
+}
+a.android:hover,a.ios:hover{
+    border: 0;
+}
+a.ios{
+    background: url("../images/iconlist_2.png") no-repeat -1655px -535px;
+}
+footer{
+    background-color: #363636;
+    border: 1px solid #363636;
+    color: #969696;
+    padding: 15px 50px;
+}
+footer ul{
+    float:left;
+    width: 150px;
+    margin-left: 50px;
+}
+footer ul h3{
+    font-size: 16pt;
+    font-weight: normal;
+    margin: 10px auto;
+}
+footer ul li{
+    line-height: 25px;
+}
+div.content p{
+    width: 215px;
+    height: 115px;
+    float: left;
+    margin-top: 8px;
+    margin-right: 20px;
+}
+footer p.weibo{
+    background: url("../images/iconlist_2.png") no-repeat 0 -590px;
+}
+footer p.weixin{
+    background: url("../images/iconlist_2.png") no-repeat -215px -590px;
+}
+div.content div.copy{
+    clear: left;
+    text-align: center;
+}

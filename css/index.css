@@ -1,0 +1,273 @@
+#banner{
+    background:#dedede url("../images/bg_1.jpg")no-repeat center center;
+    border: 1px solid #dedede;
+}
+#banner div.title360{
+    width: 453px;
+    height: 99px;
+    margin: 120px auto;
+    margin-bottom: 0;
+    background: url("../images/iconlist_1.png") no-repeat -870px 0;
+}
+#banner ul{
+    width: 780px;
+    margin: 50px auto;
+}
+#banner ul li{
+    position: relative;
+}
+#banner ul li i,#banner ul li b{
+    background: url("../images/iconlist_1.png") no-repeat;
+}
+#banner ul li i{
+    width: 174px;
+    height: 175px;
+    display: block;
+    position: absolute;
+    z-index: 10;
+}
+#banner ul #intro_1{
+    z-index: 20;
+}
+#banner ul #intro_2{
+    margin-left: 150px;
+    z-index: 30;
+}
+#banner ul #intro_3{
+    margin-left: 300px;
+    z-index: 40;
+}
+#banner ul #intro_4{
+    margin-left: 450px;
+    z-index: 50;
+}
+#banner ul #intro_5{
+    margin-left: 600px;
+    z-index: 60;
+}
+#banner ul #intro_1 i{
+    background-position:  0 0;
+}
+#banner ul #intro_2 i{
+    background-position:  -174px 0;
+}
+#banner ul #intro_3 i{
+    background-position:   -348px 0;
+}
+#banner ul #intro_4 i{
+    background-position:  -521px 0;
+}
+#banner ul #intro_5 i{
+    background-position:  -694px 0;
+}
+#banner ul li b{
+    display: block;
+    width: 173px;
+    height: 24px;
+    background-position: -868px -127px;
+    position: absolute;
+    top: 160px;
+}
+@keyframes move01{
+    from{transform:translate(-550px);}
+    to{transform:translate(0px);}
+}
+
+#intro_1{
+    animation:move01 3s linear;
+}
+@keyframes move02{
+    from{transform:translate(-700px);}
+    to{transform:translate(0px);}
+}
+#intro_2{
+    animation:move02 3.8s linear;
+}
+@keyframes move03{
+    from{transform:translate(-850px);}
+    to{transform:translate(0px);}
+}
+#intro_3{
+    animation:move03 4.63s linear;
+}
+@keyframes move04{
+    from{transform:translate(-1000px);}
+    to{transform:translate(0px);}
+}
+#intro_4{
+    animation:move04 5.45s linear;
+}
+@keyframes move05{
+    from{transform:translate(-1150px);}
+    to{transform:translate(0px);}
+}
+#intro_5{
+    animation:move05 6.27s linear;
+}
+@keyframes scorll{
+    from{transform:rotate(0deg)}
+    to{transform:rotate(1080deg)}
+}
+#intro_5 i{
+    animation:scorll 6.27s linear;
+}
+#description div.title{
+    width: 363px;
+    height: 47px;
+    background: url("../images/iconlist_2.png") no-repeat -592px -657px;
+    margin: 49px auto;
+}
+#description div.content{
+    width: 903px;
+    height: 56px;
+    background: url("../images/iconlist_2.png") no-repeat -1444px -589px;
+    margin: 0 auto;
+}
+#description div.pictures{
+    width: 637px;
+    height: 298px;
+    background: url("../images/iconlist_2.png") no-repeat -1655px 0;
+    margin: 56px auto;
+}
+#description{
+    border: 1px solid #ffffff;
+}
+#hujiao{
+    background: url("../images/bg_2.jpg") no-repeat;
+    background-size: 100% 100%;
+    border: none;
+}
+#hujiao div.hujiao{
+    width: 520px;
+    height: 532px;
+    float: left;
+    display: block;
+    background: url("../images/iconlist_2.png") no-repeat 0 0;
+    margin-left: 428px;
+}
+#hujiao>b{
+    width: 255px;
+    height: 535px;
+    display: block;
+    float: left;
+    background: url("../images/iconlist_2.png") no-repeat -570px 0;
+    margin-top: 70px;
+    margin-left: 95px;
+}
+#hujiao>b:hover{
+    transform: rotate(30deg);
+    transition: transform 1s;
+}
+#tixing{
+    background: url("../images/bg_3.jpg") no-repeat;
+    background-size: 100% 100%;
+    margin-top: 32px;
+    border: none;
+}
+#dingwei{
+    background: url("../images/bg_4.jpg") no-repeat;
+    background-size: 100% 100%;
+    border: none;
+}
+#dingwei>b{
+    width: 255px;
+    height: 535px;
+    display: block;
+    float: left;
+    background: url("../images/iconlist_2.png") no-repeat -902px 0;
+    margin-top: 70px;
+    margin-left: 700px;
+}
+#dingwei>b:hover{
+    transform: rotate(30deg);
+    transition: transform 1s;
+}
+#dingwei div.dingwei{
+    width: 452px;
+    height: 270px;
+    float: left;
+    display: block;
+    background: url("../images/iconlist_2.png") no-repeat -1198px -106px;
+    margin-top: 120px;
+    margin-left: 95px;
+}
+#icons{
+    border: 1px solid #ffffff;
+}
+#icons table{
+    width: 1020px;
+    height: 320px;
+    margin: 80px auto;
+}
+#icons table tr td b{
+    width: 85px;
+    height: 80px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#icons table tr td div p{
+    margin-right: 30px;
+    color: #aaaaaa;
+}
+#icons table tr td.i1 b {
+    background: url("../images/iconlist_3.png") no-repeat 0 0;
+}
+#icons table tr td.i2 b{
+    background: url("../images/iconlist_3.png") no-repeat -84px 0;
+}
+#icons table tr td.i3 b{
+    background: url("../images/iconlist_3.png") no-repeat -169px 0;
+}
+#icons table tr td.i4 b{
+    background: url("../images/iconlist_3.png") no-repeat 0 -86px;
+}
+#icons table tr td.i5 b{
+    background: url("../images/iconlist_3.png") no-repeat -84px -86px;
+}
+#icons table tr td.i6 b{
+    background: url("../images/iconlist_3.png") no-repeat -169px -86px;
+}
+#icons table tr td.i1 div h3{
+    color: #fad153;
+}
+#icons table tr td.i2 div h3{
+    color: #f05157;
+}
+#icons table tr td.i3 div h3{
+    color: #17caf6;
+}
+#icons table tr td.i4 div h3{
+    color: #8ad855;
+}
+#icons table tr td.i5 div h3{
+    color: #ff9650;
+}
+#icons table tr td.i6 div h3{
+    color: #b099fc;
+}
+@keyframes jump {
+    from{
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    25%{
+        transform: rotate(10deg);
+        opacity: 0.5;
+    }
+    50%{
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    75%{
+        transform: rotate(-10deg);
+        opacity: 0.5;
+    }
+    to{
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+}
+#icons table tr td b:hover{
+    animation: jump 0.3s linear 2;
+}
